@@ -1,0 +1,35 @@
+
+:root {
+  --main-color: black;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+}
+h1, h2, h3, p, header, nav
+p .a {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+header nav .menu {
+    display: flex;
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: none;
+    list-style: none;
+    justify-content: space-around;
+    }
+header nav .menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--main-color);
+}
+@media(min-width: 800px){
+  header nav {
+      display: flex;
+      
+  }
+}
